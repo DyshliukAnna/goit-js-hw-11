@@ -1,0 +1,37 @@
+@import './common';
+@import './example';
+
+.visually-hidden {
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
+
+body{
+    background-color: rgba(255, 234, 112, 0.491);
+    color: black;
+    padding: 15px;
+
+
+}
+.photo-card{
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+}
+.info{
+    padding-left: 15px;
+    color: rgb(60, 64, 0);
+    justify-content:end;
+    font-size: 20px;
+    font-weight: 500px;
+    border: 2px;
+    border-color: rgba(255, 0, 0, 0);
+    }
